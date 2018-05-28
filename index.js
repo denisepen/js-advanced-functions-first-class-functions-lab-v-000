@@ -32,5 +32,6 @@ function selectDifferentDrivers(drivers, choice){
   //  else if
   //  (choice = returnLastTwoDrivers(drivers)){returnLastTwoDrivers(drivers)}
 choice = returnFirstTwoDrivers() || returnLastTwoDrivers()
-return choice(drivers)
+return choice
+
 }
