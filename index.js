@@ -25,3 +25,4 @@ function createFareMultiplier(int){
 }
 
 const fareDoubler = createFareMultiplier(2);
+const fareTriper = createFareMultiplier(3);
