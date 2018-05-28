@@ -6,3 +6,11 @@ drivers = ["huey", "dewey", "louis"]
   newArray.push(drivers[1])
   return newArray
 }
+
+
+const returnLastTwoDrivers = function(drivers){
+  let newArray = []
+  newArray.push(drivers[-1])
+  newArray.push(drivers[-2])
+  return newArray
+  }
