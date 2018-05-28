@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const drivers = ["huey", "dewey", "louis"]
+const drivers = ["huey", "Freddy", "Claudia"]
   const returnFirstTwoDrivers = function (drivers) {
   let newArray = []
   newArray.push(drivers[0])
