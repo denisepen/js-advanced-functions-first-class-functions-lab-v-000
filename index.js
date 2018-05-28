@@ -10,7 +10,8 @@ const drivers = ["huey", "Freddy", "Claudia"]
 
 const returnLastTwoDrivers = function(drivers){
   let newArray = []
-  newArray.push(drivers[drivers.length - 1])
+  
   newArray.push(drivers[drivers.length - 2])
+  newArray.push(drivers[drivers.length - 1])
   return newArray
   }
