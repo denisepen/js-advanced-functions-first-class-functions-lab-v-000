@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const drivers = ["huey", "Freddy", "Claudia"]
+const drivers = ["huey", "Sally", "Bob"]
   const returnFirstTwoDrivers = function (drivers) {
   let newArray = []
   newArray.push(drivers[0])
@@ -29,5 +29,5 @@ const fareTripler = createFareMultiplier(3);
 
 function selectDifferentDrivers(drivers, choice){
    if (choice = returnFirstTwoDrivers(drivers)){return choice} else if (choice = returnLastTwoDrivers(drivers)){return choice}
-   
+
 }
