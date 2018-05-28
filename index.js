@@ -30,7 +30,7 @@ const fareTripler = createFareMultiplier(3);
 function selectDifferentDrivers(drivers, choice){
    if (choice == returnFirstTwoDrivers(drivers)){return choice}
    else if
-   (choice == returnLastTwoDrivers(drivers)){returnLastTwoDrivers(drivers)}
+   (choice == returnLastTwoDrivers(drivers)){return choice}
 //  return choice = (returnFirstTwoDrivers(drivers)) || (returnLastTwoDrivers(drivers))
 // // return choice
 
